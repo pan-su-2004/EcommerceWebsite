@@ -4,7 +4,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Spartan", sans-serif;
-  color: var(--primary-color);
 }
 /* root variables */
 :root {
@@ -375,10 +374,10 @@ span {
   margin-bottom: 20px;
 }
 #banner3 .banner-box2 {
-  background-image: url("img/banner/b7.jpg");
+  background-image: url("img/banner/b4.jpg");
 }
 #banner3 .banner-box3 {
-  background-image: url("img/banner/b7.jpg");
+  background-image: url("img/banner/b18.jpg");
 }
 #banner3 h2 {
   color: var(--primary-color);
@@ -401,6 +400,10 @@ span {
   background-color: #060f1e;
   opacity: 1;
 }
+#newsletter .form {
+  display: flex;
+  width: 40%;
+}
 #newsletter h4 {
   font-size: 22px;
   font-weight: 700;
@@ -422,8 +425,12 @@ span {
   border-radius: 4px;
   outline: none;
   font-size: 14px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
 }
 #newsletter button {
   background-color: var(--nav-color);
   white-space: nowrap;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
 }
