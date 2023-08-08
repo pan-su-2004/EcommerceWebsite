@@ -502,5 +502,10 @@ footer a:hover {
     position: fixed;
     justify-content: flex-start;
     align-items: center;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 300px;
+    background-color: var(--header-color);
   }
 }
