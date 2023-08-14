@@ -652,6 +652,11 @@ footer a:hover {
   color: var(--btn-color4);
   z-index: -9;
 }
+
+/* About Page */
+#page-header.about-header {
+  background-image: url("img/about/banner.png");
+}
 /* Responsive */
 
 @media (max-width: 799px) {
