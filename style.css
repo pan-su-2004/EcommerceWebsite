@@ -12,7 +12,7 @@
   --text-color1: #606063;
   --text-color2: #1a1a1a;
   --par-color: #465b52;
-  --header-color: #e3e6f3;
+  --header-color: #ccc1f4;
   --nav-color: #088178;
   --border-color: #cce7d0;
   --btn_color1: #fddde4;
@@ -155,14 +155,14 @@ body {
 
 /* Home page */
 #hero {
-  background-image: url(img/hero4.png);
+  background-image: url("img/homebg.jpg");
   background-size: cover;
   background-position: top 25% right 0;
-  height: 90vh;
+  height: 100vh;
   width: 100%;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: flex-end;
   flex-direction: column;
   padding: 0 5em;
 }
